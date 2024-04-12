@@ -1,0 +1,65 @@
+html{
+    background-image: url(img/cherryblossom.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-size: contain;
+}
+
+body{
+    display: flex;
+    position: center;
+}
+
+footer{
+    background-color: rgb(159, 223, 223);
+}
+p{
+    background-color: rgb(159, 223, 223);
+}
+#nav{
+    color: rgb(170, 0, 116);
+    background-color: rgb(159, 223, 223);
+    text-emphasis-position: center;
+    height: 400px;
+    width: 200px;
+    position: fixed;
+    z-index: 99;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+#tableofcontents{
+    text-emphasis-position: center;
+    flex-direction: column;
+    background-color: rgb(159, 223, 223);
+    font-family: cursive;
+}
+
+#message{
+    font-family: cursive;
+}
+
+#thegarden{
+    display: flex;
+    flex-direction: column;
+    position: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(159, 223, 223);
+    margin-top: 0px;
+    margin-left: 750px;
+    font-family: cursive;
+    font-size: large;
+    font-weight: 600;
+}
+
+.flower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
